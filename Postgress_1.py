@@ -13,7 +13,7 @@ conn = psycopg2.connect(
 )
 
 
-query = "select count(*) from person"
+query = "select * from person"
 
 df = pd.read_sql(query, conn)
 
