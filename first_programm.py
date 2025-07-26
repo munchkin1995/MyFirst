@@ -1,6 +1,11 @@
 def add():
     return 6+3
 
-print(add())
+print("Add" ,add())
+
+def Sub():
+    return 6-3
+
+print("Sub",Sub())
 
 print('hello world')
